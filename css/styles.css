@@ -819,9 +819,7 @@ border-top: none;
 }
 
 .form-checkbox-wrapper label{
-    display: flex;
     align-items: center;
-    gap: 8px;
     margin-bottom: 0;
 }
 
@@ -837,6 +835,7 @@ border-top: none;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
+    margin-right: 8px;
 }
 
 .span-icon{
